@@ -1,0 +1,154 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+}
+.upload-preview {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+  }
+  
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background: #2c3e50;
+    color: white;
+    padding: 20px;
+    position: fixed;
+}
+
+.sidebar h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a, .sidebar ul li button {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 10px;
+    background: #34495e;
+    border-radius: 5px;
+    transition: 0.3s;
+    text-align: center;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+.sidebar ul li a:hover, .sidebar ul li button:hover {
+    background: #1abc9c;
+}
+
+.sidebar ul li .logout {
+    background: #e74c3c;
+}
+
+.sidebar ul li .logout:hover {
+    background: #c0392b;
+}
+
+/* Main Content */
+.main-content {
+    margin-left: 270px;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-content h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.add-items-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+/* Image Upload Box */
+.upload-box {
+    width: 250px;
+    height: 250px;
+    border: 2px dashed #999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    border-radius: 10px;
+    background: #f9f9f9;
+}
+
+.upload-box img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.upload-btn {
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: #1abc9c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Right Side: Item Details */
+.item-details {
+    width: 50%;
+    text-align: left;
+}
+
+.item-details input,
+.item-details textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.item-details button {
+    width: 100%;
+    padding: 10px;
+    background: #16691c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.item-details button:hover {
+    background: #4f792f;
+}

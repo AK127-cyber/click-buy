@@ -1,0 +1,178 @@
+.shop {
+  text-align: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Welcome Section */
+.shop-welcome {
+  background-color: #d0f0c0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+/* Hero Section */
+.shop-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #d0f0c0;
+  padding: 50px 80px;
+  border-radius: 12px;
+  margin: 40px auto;
+  max-width: 1300px;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.shop-hero .hero-text {
+  max-width: 600px;
+  color: #2e7d32;
+  text-align: left;
+}
+
+.shop-hero .shop-tag {
+  display: inline-block;
+  background-color: #4caf50;
+  color: white;
+  padding: 5px 12px;
+  font-size: 0.9rem;
+  border-radius: 20px;
+  margin-bottom: 15px;
+}
+
+.shop-hero h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  line-height: 1.3;
+}
+
+.shop-hero h1 span {
+  color: #1b5e20;
+}
+
+.shop-hero p {
+  font-size: 1rem;
+  color: #444;
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+.shop-hero .hero-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Responsive Hero */
+@media (max-width: 768px) {
+  .shop-hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .shop-hero .hero-image img {
+    max-width: 100%;
+  }
+}
+
+/* Section Headers */
+.best-selling,
+.featured-plants,
+.categories,
+.reviews {
+  margin-top: 30px;
+}
+
+/* Product Cards */
+.plant-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.plant-item {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* 🔻 REMOVE underline in best-selling products */
+.plant-item a,
+.plant-item h3,
+.plant-item p {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+/* Button Style (General) */
+.shop button {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.shop button:hover {
+  background-color: darkgreen;
+}
+
+/* See More Button (Scoped to Best-Selling Only) */
+.best-selling .see-more-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.best-selling .see-more-button button {
+  padding: 12px 36px;
+  background-color: green;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.best-selling .see-more-button button:hover {
+  background-color: darkgreen;
+}
+
+/* Customer Reviews */
+.customer-reviews {
+  padding: 40px;
+  background: #e2dada;
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.review-card {
+  display: flex;
+  background: #6bbf59;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.review-card img {
+  width: 400px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.review-text span {
+  font-weight: bold;
+  color: #6bbf59;
+}

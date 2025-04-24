@@ -1,0 +1,173 @@
+ShopPage.css
+
+.shop-page {
+    font-family: 'Segoe UI', sans-serif;
+    color: #2e2e2e;
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #a7d28d;
+    padding: 60px 40px;
+    border-radius: 20px;
+    margin: 40px;
+  }
+  
+  .hero-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .hero-text p {
+    margin-top: 10px;
+    font-size: 18px;
+  }
+  
+  .hero-text input {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    width: 250px;
+  }
+  
+  .hero-image img {
+    max-width: 300px;
+  }
+  
+  /* Best Selling Section */
+  .best-selling {
+    padding: 40px;
+    text-align: center;
+  }
+  
+  .product-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+  }
+  
+  .product-card {
+    background: #f8f8f8;
+    padding: 20px;
+    border-radius: 16px;
+    width: 200px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-card img {
+    width: 100%;
+    border-radius: 12px;
+  }
+  
+  .product-card button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  /* About Section */
+  .about-section {
+    text-align: center;
+    padding: 60px 40px;
+  }
+  
+  .about-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .about-card {
+    background: #e6f4ea;
+    padding: 20px;
+    border-radius: 16px;
+    width: 250px;
+  }
+  
+  .about-card img {
+    width: 40px;
+    margin-bottom: 10px;
+  }
+  
+  /* Categories */
+  .categories-section {
+    background: #b4df9c;
+    padding: 60px 40px;
+    text-align: center;
+  }
+  
+  .category-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .category-card {
+    background: white;
+    padding: 20px;
+    border-radius: 16px;
+    width: 220px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .category-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .category-card button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background: #2e7d32;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  /* Customer Reviews */
+  .reviews-section {
+    padding: 60px 40px;
+    text-align: center;
+  }
+  
+  .reviews {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+  }
+  
+  .review-card {
+    background: #e8f5e9;
+    padding: 20px;
+    border-radius: 16px;
+    width: 300px;
+    text-align: left;
+  }
+  
+  .reviewer {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .reviewer img {
+    width: 50px;
+    border-radius: 50%;
+  }
+  
