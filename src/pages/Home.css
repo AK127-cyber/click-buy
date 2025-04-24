@@ -1,0 +1,312 @@
+/* General Styling */
+.home {
+  font-family: Arial, sans-serif;
+  background-color: #d0f0c0;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #6bbf59;
+  padding: 40px;
+  color: white;
+  border-radius: 10px;
+  width: 1330px;
+  height: 350px;
+  margin-left: 70px;
+}
+
+hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 280px;
+  margin-top: 20px;
+}
+
+.hero-image img {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .hero-text {
+    padding-left: 0;
+    text-align: center;
+  }
+
+  .hero-text input {
+    width: 80%;
+  }
+
+  .hero-text button {
+    margin-top: 10px;
+    margin-left: 0;
+  }
+
+  .hero-image {
+    margin-top: 30px;
+  }
+}
+
+
+
+.hero-text h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+.hero-text span {
+  color: black;
+}
+
+.hero-text input {
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.hero-text button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  background: black;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Best Selling Plants */
+.best-selling {
+  margin-top: 30px;
+}
+
+.plant-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.plant-item {
+  width: 250px; /* Fixed width for consistency */
+  text-align: center;
+  padding: 15px;
+  border-radius: 10px;
+  background: #f8f8f8;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.plant-item:hover {
+  transform: scale(1.05);
+}
+
+.plant-item img {
+  width: 100%; /* Ensures the image is responsive */
+  height: 200px; /* Fixed height to keep images uniform */
+  object-fit: cover; /* Ensures the image fills the space without distortion */
+  border-radius: 8px;
+}
+
+.plant-item p {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.plant-item span {
+  font-size: 1.1rem;
+  color: #27ae60;
+  font-weight: bold;
+}
+
+.best-selling button {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 1rem;
+  background-color: #4CAF50; /* Green for plant vibe */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.best-selling button:hover {
+  background-color: #388e3c; /* Darker green on hover */
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+.see {
+  /* text-align: center; */
+  margin-top: 40px;
+  margin-right: 1050px;
+}
+
+.see h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.see p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+
+.see button {
+  padding: 6px 14px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 200px;
+  margin-top: -30px;
+}
+
+.see button:hover {
+  background-color: #388e3c;
+  transform: scale(1.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* About Section */
+.about {
+  background: white;
+  padding: 40px;
+  margin-top: 30px;
+  border-radius: 10px;
+  width: 1330px;
+  margin-left: 70px;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.features div {
+  background: #6bbf59;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+/* Categories */
+.categories {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.category-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.category-item {
+  width: 250px;
+  text-align: center;
+  padding: 15px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.category-item:hover {
+  transform: scale(1.05);
+}
+
+.category-item img {
+  width: 100%; /* Ensures the image is responsive */
+  height: 150px; /* Fixed height to keep images uniform */
+  object-fit: cover; /* Ensures the image fills the space without distortion */
+  border-radius: 8px;
+}
+
+.category-item p {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: white;
+  color: #4CAF50;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  
+}
+
+button:hover {
+  background-color: #45a049;
+}
+.explore {
+  width: 200px;
+  margin-right: 8zz0px;
+}
+
+
+/* Customer Reviews */
+.customer-reviews {
+  padding: 40px;
+   background: #f9f9f9; 
+  /* background: #6bbf59; */
+  width: 1330px;
+  margin-left: 70px;
+  border-radius: 10px;
+  
+}
+
+.reviews {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.review-card {
+  display: flex;
+  /* background: white; */
+  background: #6bbf59;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.review-card img {
+  width: 400px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.review-text span {
+  font-weight: bold;
+  color: #6bbf59;
+}
